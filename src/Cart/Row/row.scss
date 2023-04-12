@@ -1,0 +1,57 @@
+.row{
+  &__box{
+    display: flex;
+    margin-top: 40px;
+    border-bottom: 2px solid #00000020;
+    border-top: 2px solid #00000020;
+    padding: 20px 0;
+  }
+  &__inner{
+    display: flex;
+    column-gap: 10px;
+
+  }
+  &__image{
+    width: 100px;
+  }
+  &__content{
+    margin-right: 230px;
+  }
+  &__money{
+    margin-right: 240px;
+  }
+  &__wrapper{
+    margin-right: 190px;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #00000020;
+    padding: 20px 0;
+    height: 50px;
+    width: 500px;
+    border-radius: 5px;
+  }
+  &__add{
+    background: transparent;
+    font-size: 20px;
+    color: gray;
+  }
+  &__count{
+    font-size: 19px;
+    color: gray;
+  }
+  &__doallar{
+
+  }
+  &__btn{
+    color: #00000050;
+    background: transparent;
+    font-size: 13px;
+  }
+  &__subtitle{
+    margin-bottom: 20px;
+    width: 200px;
+  }
+
+}

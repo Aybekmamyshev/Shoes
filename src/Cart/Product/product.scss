@@ -1,0 +1,19 @@
+.product{
+  &__block{
+    display: flex;
+    margin-top: 30px;
+  }
+  &__title{
+    text-transform: uppercase;
+    font-size: 14px;
+    &_1{
+      margin-right:auto;
+    }
+    &_2{
+      margin-right: 250px;
+    }
+    &_3{
+      margin-right: 250px;
+    }
+  }
+}

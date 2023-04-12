@@ -1,0 +1,12 @@
+@mixin text($f-weight,$f-size,$f-height,$f-color){
+  font-weight: $f-weight;
+  font-size: $f-size;
+  line-height: $f-height;
+  color:$f-color;
+}
+@mixin avenir{
+  font-family: 'Avenir', sans-serif;
+}
+@mixin cormorant{
+  font-family: 'Avenir', sans-serif;
+}
